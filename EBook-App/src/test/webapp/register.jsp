@@ -18,17 +18,17 @@
 						<form>
 							<div class="mb-3">
 								<label for="exampleInputEmail1" class="form-label">Enter your Name*
-									</label> <input type="email" class="form-control"
+									</label> <input type="email" required="required"class="form-control"
 									id="exampleInputEmail1" aria-describedby="emailHelp">
 							</div>
 							<div class="mb-3">
 								<label for="exampleInputEmail1" class="form-label">Email
-									address*</label> <input type="email" class="form-control"
+									address*</label> <input type="email" required="required" class="form-control"
 									id="exampleInputEmail1" aria-describedby="emailHelp">
 							</div>
 							<div class="mb-3">
 								<label for="exampleInputPassword1" class="form-label">Phone Number*</label>
-								<input type="number" class="form-control"
+								<input type="number" class="form-control" required="required"
 									id="exampleInputPassword1">
 							</div>
 							<div class="mb-3">
@@ -41,7 +41,7 @@
 									id="exampleCheck1"> <label class="form-check-label"
 									for="exampleCheck1">Check me out</label>
 							</div>
-							<button type="submit" class="btn btn-primary">Submit</button>
+							<button type="submit" class="btn btn-primary text-center">Submit</button>
 						</form>
 
 					</div>

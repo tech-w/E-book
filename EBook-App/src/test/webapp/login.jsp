@@ -7,9 +7,9 @@
 <title>Login-page</title>
 <%@include file="all_component/allCss.jsp"%>
 </head>
-<body>
+<body  style="background-color:#f0f1f2">
 	<%@include file="all_component/navbar.jsp"%>
-	<div class="container p-3">
+	<div class="container p-3 mb-3">
 		<div class="row">
 			<div class="col-md-4 offset-md-4">
 				<div class="card">
@@ -18,12 +18,12 @@
 						<form>
 							<div class="mb-3">
 								<label for="exampleInputEmail1" class="form-label">Email
-									address</label> <input type="email" class="form-control"
+									address</label> <input type="email" required="required"class="form-control"
 									id="exampleInputEmail1" aria-describedby="emailHelp">
 								<div class="mb-3">
 									<label for="exampleInputPassword1" class="form-label">Password</label>
 									<input type="password" class="form-control"
-										id="exampleInputPassword1">
+										id="exampleInputPassword1" required="required">
 								</div>
 								<div class="text-center">
 								<button type="submit" class="btn btn-primary">Login</button><br>
@@ -34,8 +34,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<%@include file="all_component/footer.jsp" %>
+		</div>
 	
 </body>
+	<%@include file="all_component/footer.jsp" %>
 </html>
